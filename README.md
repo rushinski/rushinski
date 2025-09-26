@@ -63,7 +63,7 @@ Software Engineer and current Computer Science student focused on backend, autom
 ## 📫 Contact
 - 📧 Email: [jacobrushinski@gmail.com](mailto:jacobrushinski@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/jacob-rushinski](https://www.linkedin.com/in/jacob-rushinski/)
-- 📄 [View My Resume](./99595f2c-103c-4dd9-8fef-faaaf5b159df.pdf)
+- 📄 [View My Resume](https://drive.google.com/file/d/1HW7ADr05z6B8Fz_LuvvbJcZVlnNZN9NM/view)
 
 ---
 
