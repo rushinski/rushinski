@@ -26,7 +26,7 @@ Software Engineer and current Computer Science student focused on backend, autom
 
 ## 🔑 Flagship Projects
 
-### [Unity Discord Bot](https://github.com/rushinski/Discord-Unity-Bot)
+### [Unity Discord Bot](https://github.com/rushinski/Discord-Bot-Unity)
 - **What it is:** A **modular automation platform** for community management with subsystems for moderation, tickets, leveling, giveaways, and roles.
 - **Tech:** Node.js, discord.js v14, MongoDB, GitHub Gist, VPS/Discloud.
 - **Impact:** Deployed across 8 servers (~900 users), archived 1000+ transcripts, and generated 3 paid offers.
