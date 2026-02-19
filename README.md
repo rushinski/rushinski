@@ -82,23 +82,23 @@ Core platform design and operational model are documented across:
 
 ## 🛠 Technical Focus
 
-### Core Languages
+# Core Languages
 JavaScript, TypeScript, Python, SQL
 
-### Backend & APIs
+# Backend & APIs
 Node.js, Next.js (App Router), REST API Design, API Validation, Transactional Processing, Webhook Handling (Stripe / Shippo), Idempotency, Queue-Based Processing, Concurrency Control
 
-### Databases & Data Modeling
+# Databases & Data Modeling
 PostgreSQL, Supabase, MongoDB, MySQL, Row-Level Security (RLS), Relational & NoSQL Design
 
-### Security & Access Control
+# Security & Access Control
 Authentication & Authorization, RBAC, CSRF Protection, Rate Limiting (Upstash Redis), MFA Enforcement, Secure Secrets Management
 
-### Infrastructure & DevOps
+# Infrastructure & DevOps
 Vercel, GitHub Actions (CI/CD), AWS (SES), Docker, Redis, Environment Validation, Production Deployment Pipelines
 
-### Additional Experience
-React, Tailwind CSS, Golang, Flask, Laravel, C++, Java
+# Additional Experience
+React, Tailwind CSS, Golang, Flask, Laravel, C++, Java, PHP, 
 
 ---
 
@@ -107,7 +107,7 @@ React, Tailwind CSS, Golang, Flask, Laravel, C++, Java
 - 📧 jacobrushinski@gmail.com  
 - 💼 https://www.linkedin.com/in/jacob-rushinski/  
 - 📄 [View My Resume](https://drive.google.com/file/d/1q8mDutfdI8c-crfWNWs2l8L5F-ZlLD3t/view?usp=sharing)
-- 
+
 ---
 
 ⭐ Currently seeking Backend / Full-Stack Software Engineering roles  
