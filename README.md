@@ -1,70 +1,113 @@
 # 👋 Hi, I'm Jacob Rushinski
 
-**Software Engineer | Backend & Automation Systems | Scalable SaaS Architectures**
+**Full-Stack & Backend Software Engineer | Secure, Production-Grade Systems**
 
-![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
-![Hosting](https://img.shields.io/badge/Hosting-VPS%20%7C%20Discloud-blue)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Actively%20Seeking-success)
 
 ---
 
 ## 🚀 About Me
-Software Engineer and current Computer Science student focused on backend, automation, and scalable architectures. I’ve built SaaS-like platforms with real-world adoption, serving 900+ users and archiving 1000+ records. Skilled in Node.js, MongoDB, OCR pipelines, and security-first design. Currently exploring modern frontend frameworks to expand beyond HTML, CSS, and JavaScript.
+
+Contract Full-Stack Software Engineer focused on building secure, production-grade systems with layered architectures, strict data boundaries, and real operational discipline.
+
+I design and ship platforms that prioritize:
+
+- Transactional integrity  
+- Idempotent event processing  
+- Security-first request pipelines  
+- Clean service/repository layering  
+- Deployment reliability and observability  
 
 ---
 
-## 🔥 Highlights
-- 🚀 Built & deployed **2 automation platforms** with **900+ live users**.  
-- 📂 Archived **1000+ records**, streamlining community operations.  
-- 💼 Generated **5 paid offers** from open-source projects.  
-- 🤝 Contributed to a **team web app**, delivering auth, cart, and rewards features.  
+## 💼 Featured Work — RealDealKickz (Contract)
+
+**Contract Full-Stack Software Engineer**  
+*Nov 2025 – Present*
+
+Replaced Shopify with a custom Next.js + Supabase commerce platform designed for reliability, security, and cost control.
+
+**Key Outcomes**
+
+- Reduced infrastructure costs by **58%** by migrating to a custom Next.js architecture using Supabase, Upstash Redis, AWS SES, and Vercel.
+- Designed and implemented a layered e-commerce backend spanning **60+ API routes** with transactional order processing and strict repository boundaries.
+- Achieved a **100% order success rate** with zero duplicate charges or inconsistent order states through Stripe + Shippo webhook signature verification and idempotent event persistence.
+- Maintained **100% deployment uptime** with GitHub Actions CI/CD including migration validation, build verification, and post-deploy health checks.
+
+**Security & Architecture Highlights**
+
+- Built a centralized request proxy pipeline enforcing:
+  - CSRF protection  
+  - Upstash rate limiting  
+  - MFA-based admin guardrails  
+  - Security headers and request IDs  
+
+- Secured **100% of authenticated and admin endpoints** with zero unauthorized access incidents.
+- Implemented Stripe event idempotency via persistent `stripe_events` tracking.
+- Enforced layered architecture: route → service → repository → DB.
+
+Core platform design and operational model are documented across:
+
+- System design and entity model :contentReference[oaicite:0]{index=0}  
+- Security posture and proxy enforcement :contentReference[oaicite:1]{index=1}  
+- Operational runbook and incident handling :contentReference[oaicite:2]{index=2}  
+- Full system overview and stack boundaries :contentReference[oaicite:3]{index=3}  
 
 ---
 
-## 🔑 Flagship Projects
+## 🧠 Selected Engineering Projects
 
-### [Unity Discord Bot](https://github.com/rushinski/Discord-Bot-Unity)
-- **What it is:** A **modular automation platform** for community management with subsystems for moderation, tickets, leveling, giveaways, and roles.
-- **Tech:** Node.js, discord.js v14, MongoDB, GitHub Gist, VPS/Discloud.
-- **Impact:** Deployed across 8 servers (~900 users), archived 1000+ transcripts, and generated 3 paid offers.
-- **Links:** [Landing Page](https://rushinski.github.io/Unity-Landing-Page/)
+### Discord Title Automation Bot
+**JavaScript · MongoDB · ADBKit · Tesseract.js**
 
-### [Discord Title Bot](https://github.com/rushinski/Discord-Title-Bot)
-- **What it is:** An **automation service** using ADB, OCR, and MongoDB to handle in-game title assignment and player location tracking.
-- **Tech:** Node.js, MongoDB, ADBKit, Tesseract.js, Sharp, Pixelmatch.
-- **Impact:** Automated title rotations and location detection, reducing manual work for leadership teams, and generated 2 paid offers.
-- **Links:** [YouTube Demo – Set Location](https://youtu.be/qWGF4W2bfXI) | [YouTube Demo – Title Assignment](https://youtu.be/NFrKKCJ1rGU)
+- Orchestrated a Discord-to-device automation pipeline mapping user IDs to MongoDB records and executing queued ADB title assignments.
+- Reduced manual title assignment time from ~1 minute to ~5 seconds through scoped device automation.
+- Implemented image-based UI state detection with a 95% success rate across multiple layout variants.
 
 ---
 
-## 🤝 Contributions
+### Discord Automation & Moderation Bot
+**JavaScript · Discord.js · MongoDB**
 
-### [Nicks-Bar-and-Grill](https://github.com/bluemario8/Nicks-Bar-and-Grill)
-- Delivered **user authentication (sign-up/sign-in)** with validation and feedback.  
-- Built core **e-commerce features** including shopping cart, checkout, and rewards.  
-- Collaborated on **UI improvements, bug fixes, and merges**, enabling a full user flow from account creation to purchase.  
-
----
-
-## 🛠 Skills Snapshot
-- **Languages:** JavaScript/Node.js, Python, Java, PHP, C++, HTML, CSS
-- **Backend & APIs:** REST, GraphQL, MongoDB, MySQL
-- **Automation & OCR:** ADBKit, Tesseract.js, Sharp, Pixelmatch
-- **Security:** Secrets management, permission gating, cooldown systems, least privilege
-- **DevOps & Cloud Familiarity:** VPS hosting, Discloud deployment, GitHub Actions (lint/test pipelines), dotenv for secrets, GitHub Pages
-- **Testing & QA:** Manual QA in staging environments, log monitoring, and error handling
-- **Frontend Growth:** Exploring modern frameworks while experienced with HTML, CSS, and JavaScript
+- Built and deployed a modular, event-driven bot across 8 servers serving 900+ members.
+- Reduced moderator workload by 60% via automated ticketing workflows and archiving 1000+ transcripts.
+- Designed a verification pipeline that screened 500+ members in 2 months, eliminating raid/bot entries.
 
 ---
 
-## 📫 Contact
-- 📧 Email: [jacobrushinski@gmail.com](mailto:jacobrushinski@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/jacob-rushinski](https://www.linkedin.com/in/jacob-rushinski/)
-- 📄 [View My Resume](https://drive.google.com/file/d/1-eRMspR91KxiuAa65h_MLPtgNPmKr9dz/view?usp=sharing)
+## 🛠 Technical Focus
+
+### Core Languages
+JavaScript, TypeScript, Python, SQL
+
+### Backend & APIs
+Node.js, Next.js (App Router), REST API Design, API Validation, Transactional Processing, Webhook Handling (Stripe / Shippo), Idempotency, Queue-Based Processing, Concurrency Control
+
+### Databases & Data Modeling
+PostgreSQL, Supabase, MongoDB, MySQL, Row-Level Security (RLS), Relational & NoSQL Design
+
+### Security & Access Control
+Authentication & Authorization, RBAC, CSRF Protection, Rate Limiting (Upstash Redis), MFA Enforcement, Secure Secrets Management
+
+### Infrastructure & DevOps
+Vercel, GitHub Actions (CI/CD), AWS (SES), Docker, Redis, Environment Validation, Production Deployment Pipelines
+
+### Additional Experience
+React, Tailwind CSS, Golang, Flask, Laravel, C++, Java
 
 ---
 
-⭐ Actively seeking opportunities in **Backend, Automation, and Scalable Systems Engineering**.
+## 📫 Contact & Resume
+
+- 📧 jacobrushinski@gmail.com  
+- 💼 https://www.linkedin.com/in/jacob-rushinski/  
+- 📄 [View My Resume](https://drive.google.com/file/d/1q8mDutfdI8c-crfWNWs2l8L5F-ZlLD3t/view?usp=sharing)
+- 
+---
+
+⭐ Currently seeking Backend / Full-Stack Software Engineering roles  
