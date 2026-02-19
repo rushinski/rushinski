@@ -80,25 +80,22 @@ Core platform design and operational model are documented across:
 
 ---
 
-## 🛠 Technical Focus
+## 🛠 Technical Skills
 
-# Core Languages
-JavaScript, TypeScript, Python, SQL
+**Languages:**  
+TypeScript, JavaScript, Python, SQL, Go, Java, PHP, C++
 
-# Backend & APIs
-Node.js, Next.js (App Router), REST API Design, API Validation, Transactional Processing, Webhook Handling (Stripe / Shippo), Idempotency, Queue-Based Processing, Concurrency Control
+**Frameworks & Runtime:**  
+Node.js, Next.js, React, Flask, Discord.js
 
-# Databases & Data Modeling
-PostgreSQL, Supabase, MongoDB, MySQL, Row-Level Security (RLS), Relational & NoSQL Design
+**Databases:**  
+PostgreSQL, Supabase, MongoDB, MySQL
 
-# Security & Access Control
-Authentication & Authorization, RBAC, CSRF Protection, Rate Limiting (Upstash Redis), MFA Enforcement, Secure Secrets Management
+**Cloud & Infrastructure:**  
+Vercel, AWS (SES), Stripe, Shippo, Upstash Redis, Docker, GitHub Actions (CI/CD)
 
-# Infrastructure & DevOps
-Vercel, GitHub Actions (CI/CD), AWS (SES), Docker, Redis, Environment Validation, Production Deployment Pipelines
-
-# Additional Experience
-React, Tailwind CSS, Golang, Flask, Laravel, C++, Java, PHP, 
+**Security & Systems:**  
+REST API Design, Authentication & Authorization, RBAC, Row-Level Security (RLS), CSRF Protection, Rate Limiting, Webhook Signature Verification, Idempotent Processing, Transactional Integrity, Queue-Based Concurrency Control
 
 ---
 
