@@ -1,110 +1,114 @@
 # 👋 Hi, I'm Jacob Rushinski
 
-**Full-Stack & Backend Software Engineer | Secure, Production-Grade Systems**
+**Full-Stack Engineer (Backend Focus) | Building Secure, Production Systems**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Actively%20Seeking-success)
 
 ---
 
-## 🚀 About Me
+# 🚀 About Me
 
-Contract Full-Stack Software Engineer focused on building secure, production-grade systems with layered architectures, strict data boundaries, and real operational discipline.
+Software engineer focused on building **production systems that solve real operational problems**.
 
-I design and ship platforms that prioritize:
+My work sits at the intersection of **backend architecture and full-stack product development**, where reliability, transactional integrity, and operational discipline matter.
 
-- Transactional integrity  
-- Idempotent event processing  
-- Security-first request pipelines  
-- Clean service/repository layering  
-- Deployment reliability and observability  
+I’m especially interested in systems involving:
+
+- Payment workflows  
+- Automation pipelines  
+- Marketplace platforms  
+- Multi-tenant architectures  
 
 ---
 
-## 💼 Featured Work — RealDealKickz (Contract)
+# 💼 Featured Work — RealDealKickz (Contract)
 
 **Contract Full-Stack Software Engineer**  
-*Nov 2025 – Present*
+*Nov 2025 – Feb 2026*
 
-Replaced Shopify with a custom Next.js + Supabase commerce platform designed for reliability, security, and cost control.
+Built and operated a production e-commerce platform for a sneaker resale business, replacing Shopify with a custom **Next.js + Supabase** architecture.
 
-**Key Outcomes**
+### Key Outcomes
 
-- Reduced infrastructure costs by **58%** by migrating to a custom Next.js architecture using Supabase, Upstash Redis, AWS SES, and Vercel.
-- Designed and implemented a layered e-commerce backend spanning **60+ API routes** with transactional order processing and strict repository boundaries.
-- Achieved a **100% order success rate** with zero duplicate charges or inconsistent order states through Stripe + Shippo webhook signature verification and idempotent event persistence.
-- Maintained **100% deployment uptime** with GitHub Actions CI/CD including migration validation, build verification, and post-deploy health checks.
+- Reduced operational costs by **60%+** by replacing Shopify with a custom commerce platform.
+- Designed transactional order workflows supporting **30+ monthly orders (~$8k GMV)** with **zero duplicate charges or inconsistent payment states**.
+- Increased projected annual traffic from **204k → 236k sessions** through SSR improvements and database query optimization.
+- Maintained **100% deployment uptime** through GitHub Actions CI/CD with migration validation and post-deploy health checks.
 
-**Security & Architecture Highlights**
+### Security & Infrastructure
 
-- Built a centralized request proxy pipeline enforcing:
-  - CSRF protection  
-  - Upstash rate limiting  
-  - MFA-based admin guardrails  
-  - Security headers and request IDs  
+- Engineered a centralized request proxy handling **7.5M+ monthly requests** enforcing:
+  - CSRF protection
+  - Rate limiting
+  - MFA admin guardrails
+  - request ID tracing
 
-- Secured **100% of authenticated and admin endpoints** with zero unauthorized access incidents.
-- Implemented Stripe event idempotency via persistent `stripe_events` tracking.
-- Enforced layered architecture: route → service → repository → DB.
-
-Core platform design and operational model are documented across:
-
-- System design and entity model :contentReference[oaicite:0]{index=0}  
-- Security posture and proxy enforcement :contentReference[oaicite:1]{index=1}  
-- Operational runbook and incident handling :contentReference[oaicite:2]{index=2}  
-- Full system overview and stack boundaries :contentReference[oaicite:3]{index=3}  
+- Secured **100% of authenticated endpoints** with zero unauthorized access incidents.
 
 ---
 
-## 🧠 Selected Engineering Projects
+# 🧠 Selected Engineering Projects
 
-### Discord Title Automation Bot
-**JavaScript · MongoDB · ADBKit · Tesseract.js**
+## Multi-Tenant Sneaker Resale Marketplace
+**Go · Next.js · PostgreSQL · Redis**
 
-- Orchestrated a Discord-to-device automation pipeline mapping user IDs to MongoDB records and executing queued ADB title assignments.
-- Reduced manual title assignment time from ~1 minute to ~5 seconds through scoped device automation.
-- Implemented image-based UI state detection with a 95% success rate across multiple layout variants.
+Building a multi-tenant commerce platform for sneaker resellers after multiple businesses expressed interest in adopting the infrastructure developed during my contract work.
 
----
-
-### Discord Automation & Moderation Bot
-**JavaScript · Discord.js · MongoDB**
-
-- Built and deployed a modular, event-driven bot across 8 servers serving 900+ members.
-- Reduced moderator workload by 60% via automated ticketing workflows and archiving 1000+ transcripts.
-- Designed a verification pipeline that screened 500+ members in 2 months, eliminating raid/bot entries.
+- Designing a **multi-tenant architecture** supporting multiple storefronts with enforced tenant isolation.
+- Translating single-tenant TypeScript business logic into **domain-driven Go services**.
+- Developing cross-marketplace automation including sneaker title parsing and structured product metadata extraction.
+- Implemented an **ML-assisted image pipeline** achieving ~90% product centering success with automated background removal and WebP generation.
 
 ---
 
-## 🛠 Technical Skills
+## Rise of Kingdoms Automation Bot
+**Node.js · MongoDB · ADBKit · Tesseract**
 
-**Languages:**  
-TypeScript, JavaScript, Python, SQL, Go, Java, PHP, C++
+Automation system connecting Discord commands to mobile game actions via ADB device automation.
 
-**Frameworks & Runtime:**  
-Node.js, Next.js, React, Flask, Discord.js
-
-**Databases:**  
-PostgreSQL, Supabase, MongoDB, MySQL
-
-**Cloud & Infrastructure:**  
-Vercel, AWS (SES), Stripe, Shippo, Upstash Redis, Docker, GitHub Actions (CI/CD)
-
-**Security & Systems:**  
-REST API Design, Authentication & Authorization, RBAC, Row-Level Security (RLS), CSRF Protection, Rate Limiting, Webhook Signature Verification, Idempotent Processing, Transactional Integrity, Queue-Based Concurrency Control
+- Eliminated manual title assignment by building an event-driven automation pipeline executing actions through **ADBKit**.
+- Reduced assignment time from **~45 seconds → 10–15 seconds** with queue-based scheduling and TTL locks.
+- Implemented OCR-based UI detection using **Tesseract, Sharp, and PixelMatch** to dynamically identify UI elements before executing actions.
+- Reduced operational costs from **$50+/month → ~$8/month**.
 
 ---
 
-## 📫 Contact & Resume
+## Discord Automation & Moderation Bot
+**Node.js · MongoDB · Discord.js**
 
-- 📧 jacobrushinski@gmail.com  
-- 💼 https://www.linkedin.com/in/jacob-rushinski/  
-- 📄 [View My Resume](https://drive.google.com/file/d/1q8mDutfdI8c-crfWNWs2l8L5F-ZlLD3t/view?usp=sharing)
+Unified moderation and automation platform consolidating multiple single-purpose bots into one modular system.
+
+- Consolidated **5+ standalone bots** into a single event-driven architecture serving **900+ active users**.
+- Built an automated support ticket system archiving **1,000+ transcripts** with persistent storage.
+- Implemented fuzzy matching moderation filters using **Fast-Levenshtein** to detect banned words without maintaining hundreds of manual variants.
 
 ---
 
-⭐ Currently seeking Backend / Full-Stack Software Engineering roles  
+# 🛠 Tech Stack
+
+**Languages**  
+TypeScript · JavaScript · Go · Python · SQL
+
+**Frameworks / Runtime**  
+Node.js · Next.js · React · Flask
+
+**Databases**  
+PostgreSQL · MongoDB · Redis · Supabase
+
+**Infrastructure & Tools**  
+Docker · GitHub Actions · Vercel · AWS SES · Stripe · Shippo
+
+---
+
+# 📫 Contact
+
+📧 jacobrushinski@gmail.com  
+💼 https://www.linkedin.com/in/jacob-rushinski/  
+📄 [View Resume](https://drive.google.com/file/d/1OVtXGcGQ_cCE0zIgG_qXpVpK2PHDERa_/view?usp=sharing)
+
+⭐ Currently seeking **Backend / Full-Stack Software Engineering roles**
