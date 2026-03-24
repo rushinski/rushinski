@@ -8,7 +8,7 @@ Currently finishing my Associate's in Computer Software Engineering at Thaddeus 
 
 **🟢 Actively looking for:** Backend / Full-Stack engineering roles
 
-**🔨 Working on:** [Multi-Tenant Sneaker Marketplace](https://github.com/rdk-webstore), while completing a contract building a custom e-commerce platform for a sneaker reseller, 5 other resellers expressed interest in the same system. Now rebuilding it as a proper multi-tenant SaaS so each reseller gets their own storefront on shared infrastructure.
+**🔨 Working on:** [Multi-Tenant Sneaker Marketplace](https://github.com/rushinski/rdk-webstore), while completing a contract building a custom e-commerce platform for a sneaker reseller, 5 other resellers expressed interest in the same system. Now rebuilding it as a proper multi-tenant SaaS so each reseller gets their own storefront on shared infrastructure.
 
 ---
 
