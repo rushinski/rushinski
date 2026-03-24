@@ -8,9 +8,7 @@ Currently finishing my Associate's in Computer Software Engineering at Thaddeus 
 
 **🟢 Actively looking for:** Backend / Full-Stack engineering roles
 
-**🔨 Working on:** [Multi-Tenant Sneaker Marketplace](https://github.com/your-rdk-repo), while completing a contract building a custom e-commerce platform for a sneaker reseller, 5 other resellers expressed interest in the same system. Now rebuilding it as a proper multi-tenant SaaS so each reseller gets their own storefront on shared infrastructure.
-
-**📖 Learning:** C# and .NET
+**🔨 Working on:** [Multi-Tenant Sneaker Marketplace](https://github.com/rdk-webstore), while completing a contract building a custom e-commerce platform for a sneaker reseller, 5 other resellers expressed interest in the same system. Now rebuilding it as a proper multi-tenant SaaS so each reseller gets their own storefront on shared infrastructure.
 
 ---
 
@@ -23,4 +21,4 @@ Currently finishing my Associate's in Computer Software Engineering at Thaddeus 
 
 ---
 
-📬 jacobrushinski@gmail.com · [LinkedIn](https://www.linkedin.com/in/jacob-rushinski/) · [Portfolio](https://your-portfolio-url) · [Resume](https://drive.google.com/file/d/14Fc-F886fLedF2GAkkyBQBSfcsPeikpy/view?usp=sharing)
+📬 jacobrushinski@gmail.com · [LinkedIn](https://www.linkedin.com/in/jacob-rushinski/) · [Portfolio](https://your-portfolio-url) · [Resume](https://drive.google.com/file/d/1hXGyUEWZt-vzp7AMjZpxZ2rhn2PpA4Wi/view?usp=sharing)
